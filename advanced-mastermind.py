@@ -1,13 +1,12 @@
-import random
+from random import randint
 
-num1 = random.randint(0, 9)
-num2 = random.randint(0, 9)
-num3 = random.randint(0, 9)
-num4 = random.randint(0, 9)
-num5 = random.randint(0, 9)
-num6 = random.randint(0, 9)
+num1 = randint(0, 9)
+num2 = randint(0, 9)
+num3 = randint(0, 9)
+num4 = randint(0, 9)
+num5 = randint(0, 9)
+num6 = randint(0, 9)
 tries = 1
-choice = ""
 play = "yes"
 
 print("What is your name?")
